@@ -91,6 +91,8 @@ int main() {
         mcmf.AddEdge(u,v,1,c);
         mcmf.AddEdge(v,u,1,c);
     }
+
+   //这里是增加一个超级源点和超级汇点，视题目而定
     mcmf.AddEdge(0, 1, 2, 0);
     mcmf.AddEdge(n, n+1, 2, 0);
 	
