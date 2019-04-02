@@ -1,0 +1,13 @@
+priority_queue<int,vector<int>,less<int>>s;
+priority_queue<int,vector<int>,greater<int>>s;
+
+
+struct point{    
+    int x;    
+    int y;    
+    int times;    
+    friend bool operator < (point a, point b)    
+    {    
+        return a.times > b.times;
+    }    
+}; 
